@@ -4,7 +4,7 @@ app = function () {
 
     // let taste = `Emyr is the ${initalValue.length} king`  
 
-    let initalValue = ['tom'];
+    let initalValue = ['tom', 'dave', 2];
 
     let length = initalValue.length;
 
