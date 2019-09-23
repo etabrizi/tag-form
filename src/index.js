@@ -2,9 +2,7 @@
 
 app = function () {
 
-    // let taste = `Emyr is the ${initalValue.length} king`  
-
-    let initalValue = ['tom', 'dave', 2];
+    let initalValue = ['Bill', 'Ted'];
 
     let length = initalValue.length;
 
@@ -36,6 +34,7 @@ app = function () {
     }
 
     format = (name) => {
+        //Read out the collection items in a list format
         return name.map((item, i) => `<li><span>${item}</span><button id=${i} class='remove' href='#'>x</button></li>`).join('');
     }
 
@@ -45,6 +44,7 @@ app = function () {
     }
 
     hasWhiteSpace = (name) => {
+        //White spacer checker
         return name.indexOf(' ') >= 0;
     }
 
